@@ -1,0 +1,19 @@
+{
+  "name": "restapi-nodejs-express",
+  "version": "1.0.0",
+  "description": "Setup \r 1. npm init -y : initializing a new Node.js project with default settings \r 2. 2.create a file index.js in the project folder\r 3. npm install -save express : is used to install the Express.js framework as a dependency for a Node.js project\r 4. npm install nodemon --save-dev : for the \"start\" script to work, you need to have nodemon installed as a dependency in your project.\r 5.  edit scripts in package.json\r    \"start\": \"nodemon index.js\"\r 6. run your project by npm start",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
